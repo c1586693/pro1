@@ -1,0 +1,2154 @@
+{
+    "spider": "./lib/bdb.png",
+    "logo": "./logo.gif",
+    "warningText": "仅作学习交流测试使用，配置或下载后请于24小时之内删除",
+    "lives": [
+        {
+            "name": "舞蹈兴趣",
+            "type": 0,
+            "url": "./韩系舞蹈.txt",
+            "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}"
+        },
+        {
+            "name": "音乐兴趣",
+            "type": 0,
+            "url": "./音乐.txt",
+            "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}"
+        },
+        {
+            "name": "拾光",
+            "type": 0,
+            "url": "http://caiji.hostingem.ru/live.txt",
+            "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}"
+        },
+        {
+            "name": "Guovin",
+            "type": 0,
+            "url": "https://gh.aptv.app/https://raw.githubusercontent.com/xmbjm/IPTV/refs/heads/master/output/user_result.txt",
+            "epg": "http://epg.51zmt.top:8000/e.xml",
+            "logo": "https://epg.112114.xyz/logo/{name}.png",
+            "timeout": 10
+        },
+        {
+            "name": "ZBDS",
+            "type": 0,
+            "url": "https://live.zbds.org/tv/iptv4.txt",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "logo": "https://epg.iill.top/logo/{name}.png",
+            "timeout": 10,
+            "playerType": 2
+        }
+    ],
+    "sites": [
+        {
+            "name": "💬彈幕豆瓣",
+            "key": "💬豆瓣彈幕",
+            "type": 3,
+            "api": "csp_GoConfigAmns",
+            "indexs": 1,
+            "searchable": 0,
+            "filterable": 0,
+            "quickSearch": 0,
+            "changeable": 0
+        },
+        {
+            "name": "📁本地文件",
+            "key": "📁本地文件",
+            "type": 3,
+            "api": "csp_MyLocalAmns",
+            "searchable": 0,
+            "filterable": 0,
+            "quickSearch": 0,
+            "changeable": 0
+        },
+        {
+            "key": "📁资源管理",
+            "name": "📁资源管理",
+            "type": 3,
+            "api": "./lib/资源管理.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "changeable": 1,
+            "playerType": 2,
+            "ext": "0"
+        },
+               {
+            "key": "🔥数据读取库",
+            "name": "🔥数据读取库",
+            "type": 3,
+            "api": "./lib/数据读取库.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "changeable": 1,
+            "playerType": 2,
+            "ext": "0"
+        },   
+        {
+            "key": "JSON读取[百合](PY)",
+            "name": "🦆JSON读取[百合](PY)",
+            "type": 3,
+            "api": "./百合搜[百合]/JSON读取.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "switchable": 1
+        },
+        {
+            "key": "M3U读取[百合](PY)",
+            "name": "🦆M3U读取[百合](PY)",
+            "type": 3,
+            "api": "./百合搜[百合]/M3U读取.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "switchable": 1
+        },
+        {
+            "key": "TXT读取[百合](PY)",
+            "name": "🦆TXT读取[百合](PY)",
+            "type": 3,
+            "api": "./百合搜[百合]/TXT读取.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "switchable": 1
+        },
+        {
+            "key": "本地json源读取[百合](PY)",
+            "name": "🦆本地json源读取[百合](PY)",
+            "type": 3,
+            "api": "./百合搜[百合]/本地json源读取.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "switchable": 1
+        },
+        {
+            "key": "本地m3u源读取[百合](PY)",
+            "name": "🦆本地m3u源读取[百合](PY)",
+            "type": 3,
+            "api": "./百合搜[百合]/本地m3u源读取.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "switchable": 1
+        },
+        {
+            "key": "本地txt源读取[百合](PY)",
+            "name": "🦆本地txt源读取[百合](PY)",
+            "type": 3,
+            "api": "./百合搜[百合]/本地txt源读取.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "switchable": 1
+        },
+        {
+            "key": "综合搜索[百合](PY)",
+            "name": "🦆综合搜索[百合](PY)",
+            "type": 3,
+            "api": "./百合搜[百合]/综合搜索.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "switchable": 1
+        },
+        {
+            "name": "👉短剧推荐",
+            "key": "DjHggg",
+            "type": 3,
+            "api": "csp_HgggAmns",
+            "indexs": 1,
+            "searchable": 0,
+            "filterable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "ext": "short_play"
+        },
+        {
+            "name": "👉漫剧推荐",
+            "key": "MjHggg",
+            "type": 3,
+            "api": "csp_HgggAmns",
+            "indexs": 1,
+            "searchable": 0,
+            "filterable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "ext": "comic_series"
+        },
+        {
+            "key": "📺直播点播",
+            "name": "📺点播",
+            "type": 3,
+            "searchable": 0,
+            "api": "./zb/live2vod.js",
+            "ext": "./zb/feimaolive.json"
+        },
+        {
+            "key": "91电视",
+            "name": "📺电视",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "ext": "./js/91电视.js"
+        },
+        {
+            "key": "legado_novel",
+            "name": "📚小说",
+            "type": 3,
+            "api": "csp_ProxySpider",
+            "jar": "https://gitee.com/xianluyuan/jar/raw/master/lz/pro0404.jar",
+            "ext": {
+                "class": "LegadoSpider",
+                "ext": "./zb/sources.json"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            }
+        },
+        {
+            "name": "🎸音乐",
+            "key": "🎸音乐",
+            "type": 3,
+            "api": "csp_KuGouAmns",
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 0
+        },
+        {
+            "key": "🎞央聚",
+            "name": "🎞央聚",
+            "type": 3,
+            "api": "./lib/CCTV.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "name": "🔥热播",
+            "key": "🔥热播",
+            "type": 3,
+            "api": "csp_RbysAmns",
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "http://v.rbotv.cn"
+        },
+        {
+            "key": "⚡瓜丸子",
+            "name": "⚡瓜瓜",
+            "type": 3,
+            "api": "./lib/瓜子影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "🎰可可",
+            "name": "🎰可可",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/可可影视.js"
+        },
+        {
+            "name": "🎭杜北",
+            "key": "🎭杜北",
+            "type": 3,
+            "api": "csp_DubkAmns",
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "./lib/dubk.json"
+        },
+        {
+            "name": "🎪伊外",
+            "key": "🎪伊外",
+            "type": 3,
+            "api": "csp_YIysAmns",
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "name": "🎯荐片",
+            "key": "🎯荐片",
+            "type": 3,
+            "api": "csp_JPianAmns",
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "./lib/jpian.json"
+        },
+        {
+            "key": "🦁永乐",
+            "name": "🦁永乐",
+            "type": 3,
+            "api": "./js/永乐.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1
+            },
+            "changeable": 1
+        },
+        {
+            "key": "🇰🇷韩剧",
+            "name": "🇰🇷韩剧",
+            "type": 3,
+            "api": "./js/韩剧网.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1
+            },
+            "changeable": 1
+        },
+        {
+            "key": "🐍毒蛇",
+            "name": "🐍毒蛇",
+            "type": 3,
+            "api": "./lib/毒蛇.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "🙈华数",
+            "name": "🙈华数",
+            "type": 3,
+            "api": "./lib/华数.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "changeable": 1,
+            "playerType": 2,
+            "ext": "0"
+        },
+        {
+            "name": "🥇金牌",
+            "key": "🥇金牌",
+            "type": 3,
+            "api": "csp_JinPaiAmns",
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "name": "🏆高端",
+            "key": "🏆高端",
+            "type": 3,
+            "api": "csp_DdysAmns",
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "🕵️莱坞",
+            "name": "🕵️好莱坞",
+            "type": 3,
+            "api": "./lib/好莱坞.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "🐧企鹅",
+            "name": "🐧企鹅",
+            "type": 3,
+            "api": "./lib/企鹅.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "🛳️亦凡",
+            "name": "🛳️亦凡",
+            "type": 3,
+            "api": "./lib/爱一帆.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "⚡光速",
+            "name": "⚡光速",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./lib/光速影视.py"
+        },
+        {
+            "name": "☕韩小圈",
+            "key": "☕韩小圈",
+            "type": 3,
+            "api": "csp_HxqAmns",
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "name": "🌿夏天",
+            "key": "🌿夏天",
+            "type": 3,
+            "api": "csp_NewGrAmns",
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "2688288565eb2ea7fcb9caa81e70fad5b9a3d290f7e7066e286ddee6884c810ce5bbe0a9ee3dca2a86a21892c506a73db6e9eadf0f102f57a713650b09b20c7ed86ac6d8055809567dcdf7992631b05b07840f7a3aebd4f2f23986e8983432494554f3f700d81de8a2336c3b4a22c07c861a8be0506a3837e08b472a5ceaf61b474c9bc035718044f7e30aa408dab3050d66bc913d83556e06064dac4058a773f679bc3974f31e2e90ba12cb883ca23aa5f9396a4bcb0dcf04bc323b09911b57a011a4bee63e18cfccd39246c42e7a6098605d8dafecfcc331ff9a5e7931223f050cc329eacefe3468eddae1e00f4f214546db11da64b0fdead941acaebc34a71cae62cddff68662b0618e9e7d43a17340cc170cd1f6369fc9121bdbb72508a69c629476b4854ba1ca6a24c5e5b576593fcd718d35390fceeb0b7b839f2ef84597c2210369a354c8a1892fb356001920d62a242a922418be5aae588c6f7910f05a9c190a01d0052e76df67c31dda834c850a05aa"
+        },
+        {
+            "key": "🀄牌友",
+            "name": "🀄牌友",
+            "type": 3,
+            "timeout": 15,
+            "api": "csp_AppGet",
+            "jar": "https://gitee.com/xianluyuan/jar/raw/master/m/202604012.jpg",
+            "ext": "http://117.50.204.35:8090|ca94b06ca3c7d80e|122|okhttp/3.10.0|Lavf/58.12.100"
+        },
+        {
+            "key": "花猪",
+            "name": "🐷花猪",
+            "type": 3,
+            "api": "csp_AppGet",
+            "jar": "https://gitee.com/xianluyuan/jar/raw/master/m/202604012.jpg",
+            "ext": "https://niuhulu.oss-cn-hangzhou.aliyuncs.com/niuniu.txt|uxxDgHxsdoSgVGZZ|122|okhttp/3.10.0|Lavf/58.12.100"
+        },
+        {
+            "key": "爱营",
+            "name": "💥爱影",
+            "type": 3,
+            "searchable": 1,
+            "changeable": 1,
+            "api": "csp_AppGet",
+            "jar": "https://gitee.com/xianluyuan/jar/raw/master/m/202604012.jpg",
+            "ext": "https://aysappto.oss-cn-chengdu.aliyuncs.com/q22.txt|nzEqOYYH3QzHuEPl|122|Lavf/58.12.100"
+        },
+        {
+            "name": "🏭厂长",
+            "key": "厂长",
+            "type": 3,
+            "api": "csp_CzzyAmns",
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "🧼恰恰",
+            "name": "🧼恰恰",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/恰瓜子.js"
+        },
+        {
+            "key": "🦁虫影",
+            "name": "🦁虫影",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/虫影.js"
+        },
+        {
+            "name": "📀俩BT",
+            "key": "俩个BT",
+            "type": 3,
+            "api": "csp_BttwoAmns",
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "🎬HD影",
+            "name": "🎬HD影",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/高清影院.js"
+        },
+        {
+            "key": "🎞高清",
+            "name": "🎞高清",
+            "type": 3,
+            "api": "./js/高清.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1
+            },
+            "changeable": 1
+        },
+        {
+            "key": "☁️云看",
+            "name": "☁️云看",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/云看影视.js"
+        },
+        {
+            "key": "🪷木兮",
+            "name": "🪷木兮",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/山有木兮.js"
+        },
+        {
+            "key": "😊快乐",
+            "name": "😊快乐",
+            "type": 3,
+            "api": "./js/快乐影视.js"
+        },
+        {
+            "key": "🌾咕噜",
+            "name": "🌾咕噜",
+            "type": 3,
+            "api": "./js/Appfox.js",
+            "ext": {
+                "host": "http://www.yingsw.top",
+                "timeout": 8,
+                "key": "guluyinghua_123",
+                "sign": "679543610991810f19698c187e5e106e"
+            }
+        },
+        {
+            "key": "🦚采集",
+            "name": "🦚采集",
+            "type": 3,
+            "api": "./lib/采集合集.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "changeable": 1,
+            "playerType": 2,
+            "ext": "0"
+        },
+        {
+            "key": "🚬独播库",
+            "name": "🚬独播",
+            "type": 3,
+            "api": "./js/独播库.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1
+            },
+            "changeable": 1
+        },
+        {
+            "key": "🍱味道",
+            "name": "🍱味道",
+            "type": 3,
+            "api": "./js/七味网.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1
+            },
+            "changeable": 1
+        },
+        {
+            "key": "cat光影",
+            "name": "✨光影",
+            "type": 3,
+            "api": "./js/cat_光影.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1
+            },
+            "changeable": 1
+        },
+        {
+            "key": "cat_麻雀",
+            "name": "🐦麻雀",
+            "type": 3,
+            "api": "./js/cat_麻雀.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1
+            },
+            "changeable": 1
+        },
+        {
+            "key": "cat_路飞",
+            "name": "👾路飞",
+            "type": 3,
+            "api": "./js/cat_路飞.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1
+            },
+            "changeable": 1
+        },
+        {
+            "key": "花影",
+            "name": "💐花影",
+            "type": 3,
+            "api": "./js/cat_花花.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1
+            },
+            "changeable": 1
+        },
+        {
+            "key": "糖豆",
+            "name": "💐糖豆",
+            "type": 3,
+            "api": "./js/cat_糖豆.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1
+            },
+            "changeable": 1
+        },
+        {
+            "key": "🌟cat_58",
+            "name": "🌟伍捌",
+            "type": 3,
+            "api": "./js/cat_58.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1
+            },
+            "changeable": 1
+        },
+        {
+            "key": "👀cat_壹影视",
+            "name": "👀壹影",
+            "type": 3,
+            "api": "./js/cat_壹影视.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1
+            },
+            "changeable": 1
+        },
+        {
+            "key": "🗻cat_大片",
+            "name": "🗻大片",
+            "type": 3,
+            "api": "./js/cat_大片.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1
+            },
+            "changeable": 1
+        },
+        {
+            "name": "🎬瓜子",
+            "key": "🎬瓜子",
+            "type": 3,
+            "api": "csp_GuaziAmns",
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": {
+                "sites": "",
+                "filters": "./lib/guazi.json"
+            }
+        },
+        {
+            "key": "🐷八戒",
+            "name": "🐷八戒",
+            "type": 3,
+            "api": "./lib/八戒.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "追剧达人",
+            "name": "💢追剧",
+            "type": 3,
+            "jar": "https://gitee.com/xianluyuan/jar/raw/master/qj.jar",
+            "api": "csp_AppV6",
+            "playerType": 2,
+            "ext": "7lj763gg0939795l0264j881k412j8i6hil9990j96j86k72071754k9l10252040k925ig59j5ijj94330jg198h6hk0jl4l572395lk3h7i5k864jl7jh14hgi5l54h5g48il7h63l26798j56665i9jhk0g2g32l3ki6h35l5i7g38hi973k12g4i5j3k2l9365h4l309h54h862i7239409h1k98j85h76j041805103lj2k749jjg06404l7011351661lg01i792l05722ik3j26h2260hk2588h6762lg5h2hgj140039l75548k1j5jh5hih18il5165k341ikjh6l39742i3l04i6l31g404i82885ig83ki6787h520k5773g6207h0i46jlijh8jil759673hk5g43hj897073g1l2li3ijjgilj9gjji4j8h08g8g7820g1lkgh97493h89g266l12123kkl85li5ig5838l659803i0hklkkl250h47kj5i3h81kik3jl07310616651h0lk70k1hg4190069i8721g8k949365i86hhgg4k85382lj3601gkh21hj49ih73132232h587g4ji59g52j58lj1g92hii190g96ll4k4l42058j4g7i0l9k8h0312hj36j1j0g6094952489k22g7gg27370lk152jljk3hk7375364k0i992kgjg3k52ggl1jj63l359klk2hl9558i40g199j099i4ghihk68l3273556g27179g4hl858i811430l47j61lgl8j0l3618k261g7329l64979jk08k9408947792h71g2i41h0j08i0jgi13l92i7li6820l7k20443jj01373450728k130073523hhk7015j7i3k36hkik0jg113k4883l190kh072gjj51k43jh130kj7k3hg268i4058ij67k022h824l3i97i4l4l1874h340ji9g70h88gi015h7j1678h4l71glih86j99g6970132583720j0l5i876309961i429365871h079825k4khl9j52856gkhhlk5kkili2gi43hhlj8i197ji32k606h139h988g6g23l862ijk15gl9i71kg1jg25081g1g80180llkhil1j0ii4gh3152i7kl60237ih156jh57j9kg8kh60i9087874k579hl00h45gj27520908907g9g09hk4gj81862iigkg009h64h3661h305h9799549h4h676j0k1h17gigg2010l4895356k228g86g1386834lig41l76i65001892h742g4j59h4923k5i25i9h26286gl646g62i2535l7gj4596j3gk1ii222hg05ji31lk2gj6j8jg9h695k3l12li4ill821ghh605l0k6766jk30k8h329l24l6j7gl3g872522k15k60j2j62hk760lihg84ig85ll346k3131k187jh064886g6296i513jig14jhi426k1j017965h0hj32ii899g03j5g00027ik9l3ljj050k617i85jklg7jkhl823jh41g8k62984k6h2l59gih2il552gj9iij1655771j970h24808i39gk1345hg5h5lj12h32j998j5lgiil9h95i182374h3jk0k05il909j6h2494g395i6g2i54i321kg2l6j6hh5j98929822hjg245k62121g816503jii30l9l4j8ji65l3l6197g8k752l3i37i4hgk22jg5jk9l0j6937gk81l21923130l4i9gh65l56667k95h791903h082glj7l2gg2lj81l529j057jhj7l9j13hj4hl6116426871i8h0i62hk46lg34ig7l05i705g5156h1572h6k937h1g1g71l3i410i2j530243glk97444jjl67811ik1k45008llj0k4h31k5hkl85517807711h67lkg976i4463156l34kk33h9365jh2glj88kghkhhkjgj16288547j2226045h5j97jk7l7g88i53h2hj90075g1kh86j65643578924gh24jjh3j8kkl644iik414k52i81j585ill90g37998hh2l4kh4272051i5ghjh993glll07gjljj086j57480l5k9i14i4g31l8k9kh96j241g1k398k0hl0g251kj2i03483935g897l319l6i3i5k181k84647kjg52l526hi3791649891j6kll5410k71kjg327g9j1i25060g669gk24g3kk5i03jgh681k3kg667h097j2675k1i5hh24g1lh6k4kil08374lh5hllkj897ilhkk26k954jll11177299j3499j3hk78g91l29i1951270048l9gjl9081l01g51gjl934h4h60ligk2i8kj7987i40k5ll49g58j47jl9k4lg09h94173g6246ggh0j9kjh690i55i15709k7g8h1h2051i691g9631hk8041j7j327710986j642l74i341g65623947gj704kl4i7g7lg0i1i49g91k764072ll159ik2l1l8i92i06407g5533kh96lkhh190l8300k58kk51i5k51537gk011g0154h2l62hj726g10gj035k2103j0j5gl7iih025g4249j86i5k90ill993g51jh4j7603g1lg54j46khj47608i6hj06028kl44598243k78l76ii86317ijiik75k006i2951g22621k2gj50h87646l0758l8ihi4i90g2h34i208i21076j6i65i679l20i9j7572h97992794i7332227592lgj69g5j9kkj1314hk3i4953031i485l5i0782161k8417i5425h6i9i7gi7k478007269h477i3ij3663429532ik08h79369ik29l1h2j5k1l4805ii3671717l760i59316k6j81kkl14l2j901ih68hk2k69iggkjjih83k1jh7329369i48gigg262h04hh2l7l4651lk9041395725h1827i5670i49k8lk8"
+        },
+        {
+            "key": "特狗",
+            "name": "🐶特狗",
+            "type": 3,
+            "jar": "https://gitee.com/xianluyuan/jar/raw/master/qj.jar",
+            "api": "csp_AppV6",
+            "playerType": 2,
+            "ext": "7lj763gg0939795l0264j881k412jji0g0k6980k98j36973020k0ll6lk184k400h9k4jgh8312j1912818glikl7lh1jk9k4222k1kg696igkk32ig6lhj3kl50j08lkl6j0h6gi7k2j31jj0k7i1784l25g757hhkl42i7jg68illihjh67l32g53532j62i92kljhj5llh498k24796l57j55ji0891479i557i3457992597ij298102k0l3k560g0k38h60089i5kh5035il7673li2956g705jh203il84368k049456igl0349h58ki85187568g1j70hk45jhi2697g3g65720h99k9054641i1j015k5238075665i14002jk320324503l4kj8g9ghi7k754483h64ljgk4783l185hhki8g8h9g8jkjj448g04jig78l7l6ik1hl7695hkkl5967760l298hg5ii058lg19133jj4k87lkh1g66h5k5ig1016kj1l7k9i61239031k7l031kli4g47l758543598331896i4jj65j269g7h9ki159gl13442h0hg08il93hi61732k7l4j645lj8935385j8jilj1gl53h52j7g35k455g15k02l1j0k82994547l670i595l340085010jh73h6ki6k6856h03jhgh97lil1j411983h8gkk4ik117jj885ih65k269l9k4h7h65li7151j9h0h8l76gih41kj3383045h67125h9hhglj9806118h17409k2lkh19i708i2g737g4lh66h5jh95klj749147702244j988137g16g087jh5690khk56863j7h8224h860k3i2k5l78gg7h7g492j1i897h3kl0lii808igik9j3j4k28k5l4l8k62j30k66ik62l9l30gg750jj866ll43llj4424g1h880l338hjg92i2i92h3g1g90g4089jj152402l035h94k042jgl4528g83g80k3864002li8j3hl59478j4h8561231778g877936l6li9k87kl27iig8ll081l1i39i7jlgi7h21363i909741j5781i2l9470i9h09gi81359igk7lg1j64k707h7i8i1l04jgh2i1l1k562h06j150ij32817k63845h317ggj9i460kl2g597li76h9h049852ig55059hg075k18g80l0k9819535j5j83h8639li4200145k898i7181742h63374h3kh7k80g26k1g30k14j679gh737j9hh74ii122l47g660g0i84hj749i90ik4i68j4jk42h1465300k753l8510554j3ji3ij6k4i700h824k71j912ii6098jk4i7i6177l7l0lj92kik8g1ghg7l0h7h5421hg3hh5l266l9282j47gl870j49610k96142834920617klhg608k5g8863l65321451jg94hlh7512j4ji26kli37j9k325j2g5i5h4582g505gj88907kg9i5253gk8h219kk7j1h4i1090i9lk5hj2j50hj1738ikh31g8lh9ig79gi273k464g799i46748502gkj0950gig43jl00445gi6i71j73300i6l396lli28gg71j01076lgki55h75kij59j2i55hlj1gj9kjkl871063hgikggi8i769h90g5399j835jg70420g517352k9927j8kik19h54k9l75g67h46k104k08k8l8h564j3k5lj2k4739l5hj926444321870988750787i4kg981hgh0010g39970932l5j9j4j511lj5jk7gl85l233979j622k533146k0gjh81h8k659h3ih1g7614j6i514690474967jh48343218l8jk32k2l52809168k851h62i344ik528jj1602h8ii7llg60079i68l7i72341i2146jilj35kj48167hi06h810jii4ll77jg18698ljg584815639g31hj01l6436ilg76gg3j5h5g631hglj9k1h437i9313526j375lj34lgl1ik21hh3kh424i92626l6ll431690h8098831gk19l2j57gh264552j7k08ii21686ll229gi96l715l487511kl76i19606hg80j12i067h163jhl21h1j754jj2i762j6258gih7jg04ilj98kjih3k744788385634156kg590103931g24ik4516li3hg93i438g1h743j6861hhi25l0hj7ih21gi41631lg06k9385j22h27617ik25905h5k1i7i2856hl248jg8gh27il8lj2hig55llk2604j5ig71hj5l1g413h34931j29k563633h38kijhhj6l52734h6k365h9gl4ji88j86k26297i26447j58k4jj47h8hj7l33lik7805hl540lk170959678125h90503jk3h8h3jh1g2i3326ij23ii9466i5kh267j078g9914j056112h644h6544kh50488ll287h6742541j8154k150kl133h7k5jhiklg221g62694l5gk5g584g03j039i26k1l3ij3058596g61lj1lh21k7j1924hh354268l5243i2k1ligkj8436kh3l3k737kji5k4k87gih2l3813098jh44240h9h3l71k5j9595jj7h2240084i75l9k142g78kk6h9l583k8493g947783j166jgi3276l5h55ihg6500hh21l780g742j4h0k71k2g85755k303j34i579g706i07123hg2hi3281i7i246j63j3gg979274ilh5564il63i12034g641g050945j30i148619j051183ijh6gi8li7844263lh6618gi02334178g68ih11g5i62i8866g8g694ljh29954i3630149li7l97ik0hl28l51kj44h8j955j069kl296hi4kj90j6i6l1ig3l6h7ljl45g4k97l2915gl613g15"
+        },
+        {
+            "name": "🐒师兄",
+            "key": "AppV6Dxs",
+            "type": 3,
+            "api": "csp_AppV6Amns",
+            "playerType": 2,
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "ec78288565eb2ea7fcb9caa81e70fa9b13eef2919564d8325ea61062acfd16469fd0578465db9bdafb4be3d9df2ea225005ccd90f53f78f97265763b899c13eefa1aa36f7cebdc6a5e972fd31f3252065f3cb61911684ab8f4233c6de2c543507f0fa3cf57dafd93e19b5fb4768b93dc2937cb5194f6545ee849cb768266005055049d881e69089873dd6f23ea0777e1240dfbf9882e2269fe49ab098ac603107eadaa29f975a8dd5167c48e97b5c6e5b263d4a9106a586eeeda123b8195ddaaac93710d597a0abe8c8067fd88668064ee490b74ea5dbf3518e69838a41f2141b73154d4bf0d076870cff129d21611f09a123dfdbe2fe26b48fea2affebf149833279ed8ed4d5f06b783ef11690b2faf42b6bab978f366d13b4d6d355ce004762835148ad58c93d2e3cb8fc8fdbdbc92218fb7bf95be1ba7c178deee3893a4f3fbc149ea4eb2e48b1b8ec8612b49da25c82bab467b32f73406aee79806f1bdc24417d4e6f726dfbd4107cbe1773ad8fd7b753e32442807ee436e3eadbdf5e5fd5c8620ab18f9c69d2a245bf4c7d63b4977dff230a25411d78b702edd983468d0d93806ca5808f8dc63c707fa1fb014bef2738dbed694435118ccb2a7788b3386529c7044f1efcdd403ccb2562c996c41e7f1f9c1f0af6339389469d5bf756a091d1c8bdfa5f435c74bf4e9d8c72e60e104645d642489dbbdba20841ff9e595fab2286bdba78f64d88c224b151191e334205fc6f067d255a8c103056a5353da45f0f2b04189346827e8395bed5773da244d9fc8c9e05e5ad0dbaa503c329855f8425fae9e2e60897327b49f46c4fe96fadbc2d2d0e836efa5f11ac4e936e9b62b26d7894ea9059f9b82026bdb6781c43c8e91e058634377895ad7ff289936cf5ce75976aca6b5e6ad9198b9b6968e0cce53764ef510c87e70dfb3f0993dc8a6427f9730b35d38bafdac3b1b52db8723669059e5b945280fe06447268bd51f08169fc8c138491a987be08ad7506bfa75019d88b80e42d07daf8a11dd68fc86ebe37c3e9b661a0171e89b3a5c6563bbbb930ba4671c82cc85038d99798ce627ff6d767e358a36588a7abfc072f477fae6340d3dd3d85d1241684e5e83ee97668a42e09238c2f8271f9f3377c5408b943c36d6f061647a2b60a17c4eb676027a900abd49e330c94671f704ac6fd5cf64897b9f012312c927fff5ab51eee988843c0f9fe1b036e967d1cddc52adb7f8e6deb4ac697c6d3c904c30c5008336c4cf75319042edb03578b8529d8119eb80658a6ab0e12ab2fd06b1fb139e20b31d799963782f8ec625e965a18280e86f5c4adac46b96c8188abde3cc148e714c3450daad9239240d2bab3b1f4754ed811f49213e0525db50db27b85b60f6b9f65803df4d8f9890478bdc3e6f3784385b53e2e63cb5e0e0193aa3f6f4a3e071f558c3d55aa0319b17738a6b104f46b54f21a9a3ab8489d0a855bb0b17b6d921453b78fa44572f039b152850f0ecb1907fe4bfdc8a9a188c57acef961a6dd601b29dc5bd1aed4b7ebcee5ff9cdf4632d3a0ac8952af09a69ab4d006929b6217ba420e99d1ac6fa011a5a4a499079f778a525d30e0e6eb5ffe8c7c75db14caf3f330af21c8702f5a20ffadec5dde3b368b46e09f1f4b461ee303999fdb5f2a39f47693222b7f1e310d3278b63d03bf4196b5a2ae78c631ff518c2eed4551f7d05ecaf4dfaec3c4723e5970c68997227cce0986c1ac744f64a9c163007908908ab0712303896096cfe7044eaf555382773749be4fe4dcf9377cda725f2b5dc4a8636d9b40c200d1ced68c33fe88b437e3602992daf33050c7584af0d30d183e1712cea276701e66a7e843688d44498f1d2e90ff10d3f1dbd8716aaa58632c0b340fca864291e47afd890ed6e38312e74ed50e35df1436d1e0dc2c00fa723eefbb1ff00f9cec48389d801faefcedc71752d83f64db20be6faa2c9efc74e3808e6103c4492ab73e7614c8a0718a15dd580d7689c3ec2f4a4a192c0c7dc136806ee8808a9cff3c303062b75badf33c133fdc2e900f0f60de58999d095feccea025e73cb053a9a522fbdb01983066fb1f261deb01688b533460e652d9aec64e952de"
+        },
+        {
+            "name": "🥋达人",
+            "key": "AppV6Dr",
+            "type": 3,
+            "api": "csp_AppV6Amns",
+            "playerType": 2,
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "623f288565eb2ea7fcb9caa81e70fa9b13ee50aa4880a55d5d8cb9e1defc9c54eda93a4de1eda66340969f9e35716a29fe218cce47e0741f0d649e8e75b34c068f00fdc0efffbed58460c680b54fa745d0f2da98e78d858c638d67f5a8358212751d8530c466927a3845558c95862b3f5e460d628c1e49a6513f3bcd9d5ecfda0926eedffdd55ba66aaf982e642388a29a52cbf6d0a6cc7cf85b1d92cd3c72176e5d6b230429df2a8d3a76ac80462f161f25760bb27cb0a2bcf3a979934e1a589de921620a594226305f03c22f41f9fdca723ea3e63d8a54fdb96aab78816d0ff7e910ecae6f0868304dd5906d03c7facc920ffa88fc8cdc3127ee9717da1be094280cda2f611a30b88b49eaa6679044d5785684a5b55488f193d9e6d6fe9612757f064a61311af60cdc11f2e09593faec3b562a44480290fbc9b2779c76b1c5a9ab7f25940e8fb4244d9dd08d5e321e26cd72ecc68f546958dfdac117f2ad42c00334ba0579b92d9d89c011b214d7a5f9ba7074d30f897a770f3dd2382080aad1d2a7a7d61eb9edeb531d52fba68453bff8e070328933161db5e0097bf376e88c206b8c05592736f8c2e2805debb69b5a7e2d758b846b713727433c29d0e5135d7e8dd02f9015070ed6897f744272c111f5823e99b59bbb6a5ddbc86013ffd4dbf3f8f82099b342476616a4ce8ef44c0f3cbb2789e4fe7b783e9b1fb937008059dc810e29c976901abe40c42858aaa3a2f9e27f0be965784f0eacc177011f273d44061302490730d00ac356914e7af0b318db591cd97ef8eb023c3b4a4a397790f9005aa10ce8ec63becfe95fc3de0c3e45c5887ea39b4218652dabd5bf6370d762757d3ce97dd1db720ee327a97c2166352c93d5af231f0ebc2ab22678f294a110d3699ba62c2985b827b25dd27bc1fb8bf851330059567d07446a4a039133e54a2dfaa77f5120d8f2580469cb9b83a209bccecf87f4537817ccbe3d9bb4521f0d6be526b91e9ff1cadf205138706f8760be8fedb624de645ede264972d24a18ec482d7102ff3ca089271b5bca165737247485cd0ec82c2d15dc361cfaa6fa844105fa5e3b38c9233c0baa0561f96cd7b320f2a7ec9dccab8801d27feb56c9019dc710ba64b893a9783ebbc58e94d269aeb0513ce9e4ada9f0c2910d01bfab72aec068ac6709ef629e278d7d73d2ac79e62912f1e6e6f45bff39330cb883cae4b980f8bf0400aef22bf4ff3e103737aea007a3287b7288119eb73699a6dcd2797e7d9ccdd62ede638ec7c89f54324e30e5b99ebd2577b9ca63ce1ed1e4bdc353bce048bb8cd5ecd3ca67ec463318b7328fc0c838d08e2a850ac4e80060b26217ddca7144734a399581572cb40df90586416d3c81d546e80c74a6b61e3870d71b250b1c8b943bce93d83285f62d47d86907cc666c72d175fe83971069bb0ba8fce1b9efdf471a3795b8404c1c49d15d3f4d46c455fa65619f599effc7a7c49c7a7f8d772471815ad723a3fe2ee8d6ad31b4673d6a0b37a1bcd9913ffc86f47476fda0cea7059ffaa348ede98f6d812baeab3a3a19885ca12ccf72fd502a77987177553d595bef44edf37285959cab33bd235be4cf871370b711fc409144827be0b2a866db7e223f6506bb7e8c452106f58ab18e07010167b6604e0a5ab3946b3f542eca8ffd06877a7e747dbb4cf2c3a3c9022aecafe405efa1b846fbc7ce326ecf7f6ce36fba137f6755447c52e2ec8b2823520bb9bbe28cd0896f24d0cdad745f4ee2382132c9c3fb319d3611c9c54ce4511a213b08ce33757eb5d6e6d4ece36ac559e49edb12cdeba8b64d6aca32166d5cdc1048e70d8ee8d138b2c4239f9278c511a9ccd61d7e8d5824ba379822fe9928f2f0861b7eefeac059998d15aeb2509e4e9485834a50a7473df1cf9ebafaea526dcc8f94a37a6736523480bbd283b24f0cf2e685fa9b215b051b113841ff1b0b8a3d0bf06ddf13cb111962b0c531e5aab795eea49543fc183c94fe5690b1112515abf7fcd5c3305ca26e3b926c50749ec02529e8db99427b3baa5529ce3b159b2e92b6f6a3ac9349624ab0c6f2eac1dfb0465209d801a648947da974f1cc025bb2dececd0c5dd6d9909db654d0b34bbd"
+        },
+        {
+            "name": "🍋柚子",
+            "key": "AppV6Yz",
+            "type": 3,
+            "api": "csp_AppV6Amns",
+            "playerType": 2,
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "b1ad288565eb2ea7fcb9caa81e70fa9b13ee58cae5fd8ca46475f447a1cf2369c6a0322594566161508ed7502301f7a5227f3e5beb855d5657962f034992536e4e06ed40eb1fb78d426ed600b12faaad11f4ea19ebb5467e0ea652741400c7620854736b6a41e9ed2c358cae6e5b1756cfca8196250171a70c4dfea850d0a3ad042ed6d6859655c6c942dd200ae2c614359dc99647fa5eb0028c8f3ea2fd2ce9328ff1b7a8d7a3a549df871f7a7a50e6626664a33098f55be0a20a1b6a09596e2ecf7f2434785131186e0cdc772310ee7c85ef4113c8a3cd3187a191973eea03bf2bf6bf38937d1f272d3ccb77e3d68c336df691654bb10537bfa2b958f0fcab7ccf913e1ac8dddc19cea75981264afe3a6f7cd5873c08ee4c7ec6ded5fcae8391488d5ef3d56b77b859d5f0a0dd5be07c770e2c946ef8159e589346eb36ea64cf3bb677e22fe2e49ca1ca10dbac047e0e6e8c7f73f2964be8c9ca710b202f3e3d65d469bb2c27deccdb32921711c8fd73de6a85b6e4e585ea323ef55f234a5908a570ed78a13b07351573dc8824af3b08143c8adffccd2cbdb0eadfb7b59eb449cec2fe304be994899909f31740c79a9a113b551b4941e95cc65734cab65c1e7f0f95d04f031fd01be5284b5c18a16d476e2562bc472f46977a4de2f0be66cfb4382c122941bad2eb21eb293261e1f4c35bf6906e3b1f1f37ede2a88dd585f2fb2b9bee0661b212edda525594753a0ee6536d1df20d88ca0bcc1292255352100fdc415dc31f8823cd4b063cf4656a81e3516b7433b863212e0c6ccc1079e1f46c77eee9681b60e7ac7bfd58f4ee0d4f88d98abffec6058e4997afceef561a17f58258452c63f06da6f309c2cf1f4f06ef8a58cd1858eacb2b8dc7060a39e86dd7a82f7b2418f0339652669bce574131e033abd698b4dbb40ac4a15e64725af9233f749d451ae74b90aa403a6273523135a4176493e49deb44d64a2c725272f9c2507dc4d517b7229e28d4c0a0d77380cbda2283ddbf5e09ff9b5755441b9f9312bdd7600a49a7e5ac01f389fd0fc9fc33f7608b2d91f41cd693471d43fbed6cd00bbcf9a74ce9fc53dc6934526afa54273c4b7d030990a2a9d81a722a80dcf582a8bfa750ca2d764737c4269925cf320dcd31f33e700080f16b46c2ffd6456117bda75f74225f984946f6e94f6092c30c3c7b2b2a809553d8d2afeee6bf9393e3a1af87d60498f2037d4eb525f985ba510fc450037ad0d27c75e54fd3f4258fa369354a3479a98349ce910602aa8362172c9426b4b77437181c1c52b4547fe8c3bbb05fc93c8ac2140d8d2e34684a703ebfdfc93d00f09c6a6725423b6019a85cc7e2583388d405ae98d7514bcaadc2ebb3d7f9204859b9524f6525425a07ff0cdcffe7c8c6c5b4049c1fba5dc21ef6a48b18bbf86fb12d46aca089e617ffe57b2f8b4fccc70d7fe8d1ff973d5b425028c4221b02a1dc8ddad2d9f0e77fd18df12223b52d0118886a6fee8f9f54ca8dc96295569b9c2c76780f348bb53f50f8bc510e1a8ac58d7228643e7a84ce86ba01dd9f2011c056bed10b0bfbce8e5ca8c200eb30dcb6ee9dd9b8d7e89f8c2b39e5d32f0552ea959cc123832f3963e2f50b14d3190aa03e26a5d187473308d1da7c8e884ee3e6e6acfa33267b4272aa2285d8afbeeea754c0f39a3f5b337b08ee747e96ced0cf2e073fb428c2bff5ceb4749e505a4baa5ce83bddffc997d6add2f472cd30f4952c26281dc4e1f0cd4ef8c44b739b773b870a65ce92a08dc4c5dae9121bac3090dceafb317ec4a7c425d63cbc3863db4eb26318cdf2bf3e60a1a232f5628486d505cf9c6976446361ba1b86d8f180fee5c4c554ef110bf27ea013be9b605494a5bc02cdf8e129111128a1745f1b9335b9e69dea62043bb175c97417442d927db26e29b033e4a12e70f2ab218f89de78410ae85bd61a3a844dca150565254afcb733d75c9e7f3419b18b123dcfc70613724258af488b48d9c46d7f060e859ed794bd4df513dd3054004180e92964a5a6f7a4bdfab99a563b498f04df429d763381eb65b0697cb348d0f39383e278b3c82c9a7430657e7d6ab14e78e0eb502422114988218577a59e7c4a40df7acc4843901b"
+        },
+        {
+            "name": "🍌香蕉",
+            "key": "AppV6Xhr",
+            "type": 3,
+            "api": "csp_AppV6Amns",
+            "playerType": 2,
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "c45e288565eb2ea7fcb9caa81e70fa9b13ee58fa569055a61c9e79bba88fe5c391421b3ca47d9afa5cbef8294a3ac0dc5b4465957d31fa7370cff9791cf886dce11385fee05779d793e80a1a61a9de0a16bc28239c46d742ede10a9aed1f5188a943d37e32e1867200bc9046a9df535eb593a1e9967e08a61234744d4b103fcf0bbcea5f694979b0f9b180666369a1abbc63449a0558117608acc086c566cadcc3220654195aff732ec7a7216a1b37af22fd52248a76f0b3b90b05c3d8d7cb4dcd8bc199df0c69f00a469b00b2272af9b20b353561c1ebd309c5872fe905a8e5434c9e977eda2b2920c4770c13222a31a533666b2bc3c6025facb2a79eec8e7a8610f3e9181201589d0a257d22436747fdb16233ac7f504e0fd4f91999f4e6dd5104855ea3853b9fa9215eda8d1497dab399efb9a6972bb79aa078358a8685c4ccc82fd5b06c4868f8ebe2714c2ad214e5b370f338f37c59272f0e4464bae30dc62bfea0e5eea60a36a49018c20f7040b0686d4c7c399febbbc0921f896d195f6fee018a2d3b70c9f35a4ead6ea24ce90abe020a72c92b6fa861c5113a79207770dfd9ee4f1a5089d2b3caf1d00457fe44df8ab6a6bc9453d880590cb28f0cdfbb50fe47dba63ba964afd8102a7b090f9731eb01f24fa1cdfb512d320230b7f3d342468d75b34e70e71a439c8e36e8531fd5f1a91859d9b5915805e2c01781ecfbf2b026cace4598c2b380fec8ee5c38461fcc0663a24c96f352667382e496f2cafa1a03ca5ea1e58be26a6d7c0b806b176515ebd6bc4e78982abe49ac1cf07480f879bc5ddb36ee4bf6e25173a31cc709ecb8465413f834a59008e3c7563a6738658dc6e04752895a1ecc418c25276e00cd52e53011912b4d0fc4f66863089741f40032bcace3e55b0f4d741382f41ca6630e1a7223e8153e05c5c9c78625bee232d4386a2b40a0dc9b97f6874da7f25a1e633dfa5771dfcb5bce58fbb6abab44ae787c14aad60507e5592d34b80c1e96f2196b0c1aa7d3841903fcc02f9f6a08257b05a954096f40e6ba4ed16e31e96bdee9e910c14dce140413a24e9315ae8abad82659f3ee0d7e2fcc36991d4188a240362b2aa0330ffe439e8f16f9a5eae4c2a21e538b1b10c620634583ccceb4d9536b8456a00c7888105db41d79c92dfd325b524b4ad2e56b3fde09daac332ff5ea919e9ffcc6a4123ebc7eb3c5c64aa878553ad97fa29bd103044404988cacf1aa7235641a872a584ef6d8dd7fa2e5ec62451d9a35df247007d499fee6d65c8d90303b92752276d62bc32eb15db7fb4ce419abc66471a021b45f1a9184cd94716dbeced0af83f2abf18977638aedadea6bbdfede36af93c10a03c28d15b8a2598f384d041877785816e33739a0ec85c1f2e020da369f3bf633060a812c5ab8312484cf08e1c542789e1f6a631b7039bd19c428caccdda4099c59a5be25c065373c74ac96acac5220fd412d0a098094320deb1069eabe7de71bf440719a6b89b2e072d468e37ee0e339be0ef98e332e2d7faedee0e58d4268470ee448d81d0ec74a0dcb706bb0739860d4b145ba7be16c1e0c4361f2b52a5e1f84dfdfae64a0014efdb84613c1fa2cbdd2686bda5639bda15f5d7caac362f0a957bcb594dcc214ac67c3bdefddf552ff013a51d21e2f25a7efc89f84b383c9f36aedd7c6d62d50a6ffb89e1cd0ec336c0db2f5a6ac3dd5d04702826ca2fbc3c3c1295af8bdba6297f8f86082245fd8c2d9f13718681846dc2a12a19d550076d6aa1982369f0b8ef2c9ee0f105f4840c7711d7922efeb53d7ffc167abd6ecb40314ca4f02a7fb2cec1222d4f725678790803001e11440f0339eee3790a38a2a1df4f8a83c3f2946b6b0460c8903ff7cc7c9717aa20456f54255142b883d7ec08228632333404927dfc178aa6cc1d223449e7f0b197f472827333aa997847a20cff178e427976aef1b3cca978405c68b4a9d16c21f4809266d6d7deb55aa72c862c4c68d16194eb7215bda65d15b36400c75ed2ebbce3296aabaf1e6c5432808cc1f2c0282edab9cda4f54992ec872e6c9990ee15eb1fb0ccc09cced55979c5ba4023cdc7430f1c2922f3baadf9bcc3365667b1c60d2541d84474cfb3770078d1843aca8959b022785"
+        },
+        {
+            "name": "🎬星影",
+            "key": "NewNoxXy",
+            "type": 3,
+            "api": "csp_NewNoxAmns",
+            "playerType": 2,
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": {
+                "name": "",
+                "password": "",
+                "data": "9921288565eb2ea7fcb9caa81e70fa9b13ee58fa569075bf546cac21b42fe2731e5edbdeadf726174d2e14d2cf3c526e5016db560bf81646df0aa5e7685b0fe002e42aa3dea624bf4a3e7e1b0b2a12a8116e74d4f01dc16a7e85812014515f814304cc010bbaae758fc1cf56a19fa57276f610a435bb66d731b7420a1391345125775caa90be8e9ccb9b39f56eb1b6721eae67236c99945c08d62fa285be23965b94291d7211f14be5615d125bb80e0e05748608f3ad36a1543444cc8fd4855207b64ac205328a9403b6d24ecba6fc1d65359e70fa359a4c378ff96f72292af12a874f34ecfda64daf0bd59635b1be8bf35b23e36ef904d069e7e0a7a0bff6ad6a7d063242e0844a97ea30e5d62672af4ca630b5a0f7fc1b873ab6d997d4e3f3720515f20658e7a35a6e14e286de2b492db710f490e62639b831d4b6d8ac14c0f141fba116f8c61ad75885102bbb844a05ec0834625b1fa81c26a42feca7ae3df8f1f22f8c1e3101ef69ae47c9742869e0a1a8e140b83671f0e1484213209a5afd03a3d97d0929614e4c43626a310ac0193ea6d19fee8e6c966a6cf3568075f18aca6f4b639b5d90398f39f35ed88ba40ae4f05793ae74c149c4273b6c1ba9854bf4003cdc6cd8caf331ae913f8133c149247663d2cef3adbcfbf82f624959f8ba8371dd1f889b448d221494bf1d6937b0d10fa4d88eed2d1e4c1dbce0e51460389d11c2cd7c80e4524463fbaedfcbaa846a5674b2ef6e111f86417a2ccbd59c63979f90af2542904b56cb1e3b2302005f361e5203f86e512d776c435952d1d2e121be9f87961bbefa6b4e5ae9a53699295d03dc3ffbd4f41a549d668ce634cf8b42eb3f0408c7dc51b43abbc02ef08bcbfa2255d17c30b1747d340ba9d715fef4c1513c9a9e05d0e359739d57101f58253736ab604b67afcca8f2fff6cdc32a489e71dbe5fd6ef13afff2cf8d3e9874e8992f750238d2822905e5d7b5b53689eb138d4669f15c767e0723934d00df846145dbc81f30fabb74c781e09666d23a1e1e85762a1319d091f2fae1aeadeea564755cf2b6cd0dc083928188cf1c41fefab3b289e77f72d913d6a711916ed8baf479c4a616e2a4f3da5a258577d36daf64f7320509f87441d7f2b039a4956b0f3f9dd95093241036e0332cad961e89d239e71004b37f608763bdea795ae036376ebd3ad307b84e3678bf485a09d053cef3312e0da9edbe4d5d66541a6beb8694395ffb8fcf1eff43f7b142bc7891351f6df5e0b940ca1b10ef93018a4732720797d89f885d001f98a1618c405300098083b84a22927c883c080e6df5d82c2a0f35fd28db5750875225e720b5cea406d8e17b242dbabdeeeb54ac9a2e84962d91d3c27fbd907468bfd22aee6f6ab97cc98be2e2ef9614"
+            }
+        },
+        {
+            "name": "🫘豆芽",
+            "key": "NewNoxXd",
+            "type": 3,
+            "api": "csp_NewNoxAmns",
+            "playerType": 2,
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": {
+                "name": "",
+                "password": "",
+                "data": "69d3288565eb2ea7fcb9caa81e70fad5b9a3d2f80878a2056de77ad5ff9d2b3f96d2577a6c0337ef0444c53684e65e78901253fc40b2a4fb0c44dd2842b22eff1cbca2b1f047c16c30cd69dd5f6250966b155c5259e80c2f452c86683aeb5dae2c6c4c0d0b7a504e65ede82724dbb3da79753dfa6e81e50b4667d4e9afafdbdd31e751b24d60f01ba63ba35961917def921925aaf555bf3588c24fc205f1cc52e5311e636232c2fafb620c6c3a03806c1edeaf47c3fe4e5e153e5eba80563787796786ae96bc4e0e6f4d13b4983e82845baee0e9182062cf4104bd59c976a8f5422c1ed4cdd4eb5d47448bdec5260a5885c0414afb954bf60c7ecc7602cad51a6f4ddb8ef5cf8b8aa941eb8f3de9cc1ab7bb003cdc9423cf191e659b270bb9b58cf842ba60c923b1c258f54fa9ad3cb9220da3177163f89b692dce763c6b1a20e059c3e8de5617884bdc617d22f3b455ef0b0d0caba514708692e1b7ae2f0a40af63fc99ad1fc7a2fc295efa5ef864a9dac2470259705a968b28ccd03d69728f739f099247904d6ea6092565b2a72491cb721e4c99063ff16cb5da7e5a70d88a13168dde2d73102638fdc88075e91c76ee8951ea50a86419ff81c7488ba65cb0fc5933ad388b539611263edd5de8a665661d83f8b657b725a8117d5b613942281ea6c0d67d292a37764f651b61595f700e8c89704a1251e6728d377de2dd8342bdc1c1cef5bdae7b2ead9a78a26fc2aa528cf1ef7e1129174d045d02fbc77d1f5f66065403488782d3fa203b84c4d3b20c3e0ec2a79f6319dd0005846f410fa0ead92f23fcdf3de792b242bc7ea3bc9db3ab088aad25e24bc5f858ea00a286f42ab562fda0bf446eced2795b5b28e03d88102d2dac756a1fc7382e3dcc5e8f6cd69871c3bf8f0b30409cb139b2f72671fe6bf49125215a963b85c938442000300e269ee006f20c70a85b2b2b843e32dfb90b353dea37ba5d5d766c0b113a22d91b2e267d224321010f9449e446d0ab55e7791604e18fc594a38b61f3368bf393334db379bca76e3f70671cf498a614b052acfa0743c0dd1a8f20e6211a727a79eeb9028adf6468a92c77ce36824e59b6fae318fae0efb49bf3291652e125f0539d52fdc9cd749a82a9c3a7976fc90d3888207c5d6169f0352e55b3412b33c88a419cb109937e3839c0221ed2cfee2449ff5913c48726928471afc8f06611212950c6d9189b8463afa4abc850f9c59314972236bb16da3d29b0bbd0bed816f9c3718f31433b7160c981483d955f101f8601ee80b088dc1da0345f854e9b26e26b40341e849d96452e06ce9f304cb82c3f205dfb3962d95d06afab8ae0ae87f54b175ef3bfa835aaedd2f018c43569a26d461c83feaea70ed859dc4f622a31307976a53a2baa157931f0115b"
+            }
+        },
+        {
+            "name": "⏳追忆",
+            "key": "NewNoxZy",
+            "type": 3,
+            "api": "csp_NewNoxAmns",
+            "playerType": 2,
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": {
+                "name": "",
+                "password": "",
+                "data": "4122288565eb2ea7fcb9caa81e70fa9b13ee58fa569055a61c8e99e0e685e59b23bfd2fede0c6909ed737ef5f8bf1ed059ee1222b4ed5608fdb3706b6c8b03f092e28a96fdc785c29b10433294465a2940ec80382950c7fd32775455e18dddb20ce680df1032820b7f3e36b58835e26cf64143caed9d3491f302adae503007d049243be56681fd3328c76f44393b3f01872abe86be7f6190a3b012ac28cbfb5ca81b45b5d85cf76347547bd3edfde4eb54261cda45b8469e2bef40d2dfc63d6f5846256de2fdc4e2c2e0a0c1dd0cd784a121243dec0d514eb59bdf76924637518d723c1561b3f6bb423494885708df5c753f9e7ec256bfc5d9d8c748e1bdced241b6c0a6b6c5cdfa7a8fafa9b0d743d8f1d95724a29fed43edb14aaa905eb92300d687b010d8f3adfc11e3616243777f6675840e93e68c442d9de777aa7d18f0fce1627b329b1d6e66675c32aab7de7a96504b8c25e3f6a30ca60a6ae20f7fd7c1706c1db935f2e37497f727943c1ac049464be2c61c21f99ab000e4086a62a114ac6af3d09e4500ed799cce1f20a223aeeb4864b24ddf1a9d3aeee7ded6f38b33a52a55a3c51df894c04f0a996c20270e86e9319a7e586ee0991902db1491e4e4f948dad5b46e6fd058cbe020c913c049fc20530bb2f4e5a28b09d4b7c7bb4d6d8f2f2dccbc6ec7ebe952eaf8cd5528888039e5e655af8d1924e4816df3ec2dd010ed71bc955d46e711fdafbeadc49a3bcf4932b4ff843c18866973cc3e48be3caf6033bc8d65ef12043d7d92ee9ea4ea411dbcb8d5dbe4c212ab4999d673697e6d1e1c41222ac199d2a961c4e43481eb4bbbc9154ac19499f238cd759bbd65c61a2b3d9a064f38587486b0d09ed5b4c240b3d9f565ead37985d17e2ceb2c71b0395e7cf2b7ce0245bc40ba9efe3e3176ddf9772c59dfa2d4d0e1d105b05cf06aa7dac6a72de85bdf20c646cba604f8a27374ad46d8dbec7c0d830801da0bae9a326673e2df4bb0ec9b0764d49c0dee8c2836d5ed2d206f5664a6e95002af8359763c03d9acae3580008bf0880ee173ce5023d3671939975b3c2c75f2277a69f8b3cac63fa37e476fb5d8a6c8c68b3c46dcd7c0476052981bc649ba18ca931c4d4eb5195388ed05cd2a8ec88f64704fdd409db0a647872448e4da8e172a0a9891127d33e48f8dbc7a55152ce45d976a8ef2f09f9fd69ddc6bd57ffbf005c14245bca8875d30823ab6c18190fffdd61adf98e9df0faa167e36150dfcd6dc73870bfe0884b7559f046fa752828d14890a353f7c73bcdf932c903ac6602ab38ebc54c4a7311a08a185c1c8290b23d17b17ef41d30023cb4bd6318f71b558080918a5d371052bdbcbd249149ba8407028f7ba31ce96058ae5837bdde1a1108a9574b0f98a10d1dc2bdf"
+            }
+        },
+        {
+            "name": "🐱片喵",
+            "key": "NewNoxPm",
+            "type": 3,
+            "api": "csp_NewNoxAmns",
+            "playerType": 2,
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": {
+                "name": "",
+                "password": "",
+                "data": "746a288565eb2ea7fcb9caa81e70fa9b13ee4a648c74e053af598da6a6d7dd947be5a0a70e007fe1c45a7b635a9a3b593f4d4d6caccfd5c433afd25ea31df7b5526eb65f2333da7a46c46feb8f5e77c8398f4032e1b5a60aaf638c8f1761a09d6a1dc53e84967db81cbec73e71417f1747c4374db1d74bf6e21125edcfac569913a6d29e171281f36bdd0fb4c08c1df02ad44f051b624089eb09fc5f14da83f483620d3c9c05c04a3d5fed0901204a766e25ae49a95fd9e4ac819786fded542e207f44d28d566787417ec6b8be17f92bf8092d7dac6f2099632d86b800b234d731b7d0debf6fc8fa24cdd718e317e1bd8c9a992894e444c6d9d8cff080e68e4a4f84e1599b96dd9a7bbfaab9302948ee42147df3c6bc16b82af56893ff75100e37c5f75fc35edf14ad191b5c213b3a2730072d6d4450899aeb197de3c04e099841f6026c62f1ae65fe296e2d0cc2733778d5e9275ca854108fbafa6f4c38927a0ea6f2bf206170ef3a5f5db41038d8e25a3c1e4c830641704e7cd418431077b70a8e71d5b7df257998582595dfdcc57abe532d832d09197ea8616ccbbfeda47b50442b25222b604ffff36af3f85faf8da3ab321d33c3b393abdb795b0b00d15c25f7087282466f372615ad898d6e9afcb463fec7f54de73d305fbb79621961bf24af82f8b637f8a512aee2c12d89f5452ddf17d4ad1d27ef2cadd29697bc5cfe7255a3d12d191748ad13f5af40b8e6fdc46876bb0822487e708d2fa50072905c5506853022e314e6fa6134cb2d73ca12078cb10f0bf2849c63651e32e4f79cc4691d259587048f6af6f148624ab8ee2328c7776b1202f18b7be5b0b98644c9ea8482c9e0c864d0fa02167303912e6249b5497db3f875c802f7b10acab7ad5ede032e8c60dcfebc456f7d8c58415a3919c578540ae10d89dc13e6e0f990aea655f7b112a4ae0797c4a9e900acb857c784fb090d9ce557df6a804ae3597b81f3ed9442e3e930cbbb0b574e7535acdf9df43a17a589b77faae31a1ebd312c49098641ae025a01da3359b5792e33147868a12c27246542e074795e24eed7fd47b7b5fca342b228f3dcaa1c9c2fd54d407fbff43954422b6b6ab16a55b35f9bb6fe531fccc9585972c2bcdc90d13e9cf4f48bc11295261aeacc043ff5c89037998532c8708c5611a22499519617545908214985b0d2ae3809c942557e8c58819495f4f271bc81551899f4e243ebbf002a7867b023c4580b9abdc3691d4dfade1e71af641f8b783a89fdd36357db2004dae3c39152350d71c1c3ba7af7e0377c0111e0a2338ca640d2132e783df671426808c8792f661301486fff7285af196b134160d0fac268bc4f5f3e28a5201dfb37b0c5716d0ea456927d4fc5f8f2419b46d16246c6"
+            }
+        },
+        {
+            "name": "🌌光速",
+            "key": "NewNoxJg",
+            "type": 3,
+            "api": "csp_NewNoxAmns",
+            "playerType": 2,
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": {
+                "name": "",
+                "password": "",
+                "data": "1a5c288565eb2ea7fcb9caa81e70fa9b13ee921ef90f07182de55a048be4f69da9cbf70f8b5697fc82d0499ccd36f89dc3e85804e9df9b2ade928718016082fc72dd21bb566aeaade2cbf1c7ed0d7047ad136cd3102a1a58c848c316cbcffbc341c48f17e2c5869cfbc9df7e73ea2cb95c8c104cb9d7cee2725543e287ee64b784f988700aa9be055f7ccc6e0a828c7cfe727cfbfe7de8547de6c1367c214a1ed6c8528a2feb05f0c398611c92868d24d63abcdf6d7948f622a782c88f4449d033ede28737a32eb1146ef41f4b783a67a8e9eacf5d907defb2939f7802c21b70864afb1fb135e21b3d8f5fbac8f446901b6c04aa68836d2f285fabe76ea12ed129f5caf6381167c71154055411da1b167fa5ba7f5c889504275fb3e9a60f3f4f5dec3845a16518de612544443919d9147f051de2b6c735c95104d5d6ad8d03583f1f33837723727796721e44d944574e77dda7e1861ec7eabcb9d2a098aeeec5e3715c224c20826406869fe610002f21482656a236ab0400df483b5b39cbe38d5b143bfb0832aa45e7b96273840691f482aaf84fe14ddf123d3f2e354c52f7bb3a672405096298f4ca20568aada7d63aa69399308acce3c3abfbf05781e44e8e9bd037d5e725a2939b12c56eba95553820cf19948fce2b99438cbfcffdc52d67e04b739b1570da4265df4f7c4c3862a954d6295d6141ef1d0f9ca711a3d7d3421756f3575908d1aa2a3f1e9cd796231fed9b3943bb554f6ea61bf51773d11508c71855148384450eafc3d956819ebd13550ec516cb4e7737be512b75aacd1ba6025cad376cb1f4537fd5b117d394bdbb1a564d327c5109407d370e44116a5866066e1cf468eb3419470ce57ff2bf06986b1d3d8b0d38a85bbdc36ff38ebed69af901232d8c1e97ca21055bdaaf0dbfbbcaf228f5b637b26548ac1afc1e62c8fab283b1a19e2ed04447b6e06ffc8da56b3eefb2312c7b423878f5c2b6e0bd1e1e5f1cbd9fad4f3907855afd69723912c811645e3a9a9ec312a7511d6c74391248772f748b47e8460665176dd32d633ab104662e133153d7fab29107ac6621b2fdda30a67f7ae35c3e36277c1d338bc52a702d5e5a51a0ae65d082c1d84572f0130524162ce4af0e58059c8f5639c1055e9578568a4d40870ccd100da43e2b0a58aff9d0f61eb2f633fe113b5d2123e2dd1134ce607cdba5ed0276cc760a7a18d8099c119c9f5ca7b5627da47932a3a6bdfc71ac774a2a1256f533ee917f03a965c0a8d806598a1d3076754e9497367aff72d7e7b750a8fe0dfda19a70ec85f50bdf80a1d7957cd244a7c3b15799ac8c9c531615a4ae8ff3cd01d6bf7132bb9684738589484170129ef1d1170c09c81bf0da2a0c644a1aa16de6f9c2885750bf2526a5e8ff30e374c9"
+            }
+        },
+        {
+            "key": "🐮牛牛",
+            "name": "🐮牛牛",
+            "type": 0,
+            "api": "https://api.niuniuzy.me/api.php/provide/vod/at/xml",
+            "searchable": 1,
+            "quickSearch": 1,
+            "categories": [
+                "动作片",
+                "喜剧片",
+                "爱情片",
+                "科幻片",
+                "恐怖片",
+                "剧情片",
+                "战争片",
+                "动画片",
+                "纪录片",
+                "预告片",
+                "邵氏电影",
+                "4K电影",
+                "国产剧",
+                "欧美剧",
+                "韩剧",
+                "日剧",
+                "港剧",
+                "台剧",
+                "泰剧",
+                "海外剧",
+                "国产动漫",
+                "日韩动漫",
+                "欧美动漫",
+                "港台动漫",
+                "海外动漫",
+                "影视解说",
+                "爽文短剧",
+                "有声动漫",
+                "女频恋爱",
+                "反转爽剧",
+                "古装仙侠",
+                "年代穿越",
+                "脑洞悬疑",
+                "现代都市",
+                "演唱会",
+                "大陆综艺",
+                "日韩综艺",
+                "港台综艺",
+                "欧美综艺",
+                "篮球",
+                "足球"
+            ]
+        },
+        {
+            "name": "📽️LIBVIO",
+            "key": "📽️LIBVIO",
+            "type": 3,
+            "api": "csp_LibvioAmns",
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "name": "🪜爱瓜",
+            "key": "🍈爱瓜",
+            "type": 3,
+            "api": "csp_AiGuaAmns",
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "name": "🪜YOU视",
+            "key": "📹YOU🪜",
+            "type": 3,
+            "api": "csp_YouSPAmns",
+            "searchable": 1,
+            "filterable": 1,
+            "ext": "1",
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "🙌聚合短剧",
+            "name": "🙌短剧合集",
+            "type": 3,
+            "api": "./js/聚合短剧.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "ext": ""
+        },
+        {
+            "key": "👾喜福聚合",
+            "name": "👾短剧聚合",
+            "type": 3,
+            "api": "./lib/喜福短剧.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "name": "🐱喵喵短剧",
+            "key": "🐱喵喵短剧",
+            "type": 3,
+            "api": "csp_QmdjAmns",
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "name": "⭐星星短剧",
+            "key": "⭐星星短剧",
+            "type": 3,
+            "api": "csp_XydjAmns",
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "name": "🎦豪堪短剧",
+            "key": "🎦豪堪短剧",
+            "type": 3,
+            "api": "csp_HHkkAmns",
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "name": "📺盒马短剧",
+            "key": "📺盒马短剧",
+            "type": 3,
+            "api": "csp_HemaAmns",
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "name": "🎞️拜拜短剧",
+            "key": "🎞️拜拜短剧",
+            "type": 3,
+            "api": "csp_BddjAmns",
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "name": "🐠锦鲤短剧",
+            "key": "🐠锦鲤短剧",
+            "type": 3,
+            "api": "csp_JLdjAmns",
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "name": "🍩甜圈短剧",
+            "key": "TQdj",
+            "type": 3,
+            "api": "csp_TQdjAmns",
+            "playerType": 2,
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "genre": "shortdrama"
+        },
+        {
+            "name": "🎂岁岁短剧",
+            "key": "岁岁短剧",
+            "type": 3,
+            "api": "csp_SpdjAmns",
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "星芽",
+            "name": "✨星芽短剧",
+            "type": 3,
+            "api": "./lib/星芽短剧.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "cat_红果",
+            "name": "🍓红果短剧",
+            "type": 3,
+            "api": "./js/cat_红果.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1
+            },
+            "changeable": 1
+        },
+        {
+            "key": "红果",
+            "name": "🍎红果漫剧",
+            "type": 3,
+            "api": "./lib/红果短剧.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "name": "🧣围观短剧",
+            "key": "Wgdj",
+            "type": 3,
+            "api": "csp_WgdjAmns",
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "genre": "shortdrama"
+        },
+        {
+            "name": "🐶我爱短剧",
+            "key": "DjHgg",
+            "type": 3,
+            "api": "csp_HgggAmns",
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "short_play"
+        },
+        {
+            "key": "PY合集",
+            "name": "👊PY合集",
+            "type": 4,
+            "api": "http://zhangqun1818.serv00.net/py.php",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            }
+        },
+        {
+            "key": "🦄动漫",
+            "name": "🦄动漫",
+            "type": 3,
+            "api": "./js/moefun.js"
+        },
+        {
+            "name": "🐲漫剧",
+            "key": "MjHgg",
+            "type": 3,
+            "api": "csp_HgggAmns",
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "comic_series"
+        },
+        {
+            "name": "🎉Bili",
+            "key": "🎉Bili",
+            "type": 3,
+            "api": "csp_BiliAmns",
+            "searchable": 1,
+            "filterable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": {
+                "json": "./lib/bili.json",
+                "cookie": ""
+            }
+        },
+        {
+            "key": "虎牙js",
+            "name": "🐯虎牙",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/虎牙.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1.755
+            },
+            "timeout": 10,
+            "playerType": "2",
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0
+        },
+        {
+            "key": "斗鱼js",
+            "name": "🐟斗鱼",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/斗鱼.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1.755
+            },
+            "timeout": 10,
+            "playerType": "2",
+            "searchable": 1,
+            "quickSearch": 0,
+            "changeable": 0
+        },
+        {
+            "key": "🥗哔哩",
+            "name": "🥗哔哩",
+            "type": 3,
+            "api": "./js/哔哩直播.py"
+        },
+        {
+            "key": "⚾体育",
+            "name": "🪷体育",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/178体育直播[优].js"
+        },
+        {
+            "key": "🏐体育",
+            "name": "🪷体育",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/919体育.js"
+        },
+        {
+            "key": "⚽体育",
+            "name": "🪷说球",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/说球.js"
+        },
+        {
+            "key": "🏀体育",
+            "name": "🪷球赛",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/咖啡直播.js"
+        },
+        {
+            "key": "💪体育",
+            "name": "🪷体育",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/178体育直播.js"
+        },
+        {
+            "key": "🎵世纪",
+            "name": "🎵世纪",
+            "type": 3,
+            "api": "./lib/世纪音乐.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "☁️云音乐",
+            "name": "☁️云音乐",
+            "type": 3,
+            "api": "./lib/网易云音乐.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "🍁枫叶音乐",
+            "name": " 🍁枫叶",
+            "type": 3,
+            "api": "./lib/枫叶音乐.py",
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            },
+            "changeable": 1
+        },
+        {
+            "key": "🎵爱听音乐",
+            "name": " 🎵爱听 ",
+            "type": 3,
+            "api": "./lib/爱听音乐.py",
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            },
+            "changeable": 1
+        },
+        {
+            "key": "☁️网易云",
+            "name": "☁️网易云",
+            "type": 3,
+            "api": "./lib/网易云.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "🐟HIFI",
+            "name": "🐟HIFI.",
+            "type": 3,
+            "api": "./lib/HIFI.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "🐶酷狗",
+            "name": "🐶酷狗",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/酷狗.js"
+        },
+        {
+            "key": "Cat_听海",
+            "name": "🎻听海",
+            "type": 3,
+            "api": "./js/tinghai.js",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 1,
+            "类型": "音乐"
+        },
+        {
+            "key": "央视大全",
+            "name": "🎥大全",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/央视大全.js"
+        },
+        {
+            "key": "央视综合",
+            "name": "🎥综合",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/央视综合.js"
+        },
+        {
+            "key": "央视少儿",
+            "name": "🎥少儿",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/央视少儿.js"
+        },
+        {
+            "key": "央视经济",
+            "name": "🎥经济",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/央视经济.js"
+        },
+        {
+            "key": "央视合集",
+            "name": "🎥合集",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/央视合集.js"
+        },
+        {
+            "key": "随身评书",
+            "name": "📚评书",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/随身评书.js"
+        },
+        {
+            "key": "📚听书",
+            "name": "📚听书",
+            "type": 3,
+            "api": "./lib/听书.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "爱上听书",
+            "name": "📚听书",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/爱上听书.js"
+        },
+        {
+            "key": "酷我听书",
+            "name": "📚听书",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/酷我听书.js"
+        },
+        {
+            "key": "喜马拉雅",
+            "name": "📚听书",
+            "type": 3,
+            "api": "./js/喜马拉雅.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1
+            },
+            "changeable": 1
+        },
+        {
+            "key": "爱听书",
+            "name": "📚听书",
+            "type": 3,
+            "api": "./js/cat_爱听书.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1
+            },
+            "changeable": 1
+        },
+        {
+            "key": "凤凰FM",
+            "name": "📻FM",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/凤凰FM.js"
+        },
+        {
+            "key": "蜻蜓FM",
+            "name": "📻FM",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/蜻蜓FM.js"
+        },
+        {
+            "key": "戏曲大全",
+            "name": "🎭戏曲",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "ext": "./js/戏曲大全.js"
+        },
+        {
+            "key": "💗瑟瑟",
+            "name": "💗瑟瑟",
+            "type": 3,
+            "api": "./lib/瑟瑟.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "💗瑟播",
+            "name": "💗瑟播",
+            "type": 3,
+            "api": "./js/drpy2.min.js",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "order_num": 0,
+            "ext": "./js/SS直播.js"
+        },
+        {
+            "key": "💓直播",
+            "name": "💓直播",
+            "type": 3,
+            "api": "./lib/直播.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "🐍通用",
+            "name": "💓全通",
+            "type": 3,
+            "api": "./lib/七区.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "💗仓库",
+            "name": "💗仓库",
+            "type": 3,
+            "api": "./lib/仓库.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "💗全搜",
+            "name": "💗全搜",
+            "type": 3,
+            "api": "./lib/xPornHub.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1
+            },
+            "changeable": 1
+        },
+        {
+            "key": "💗51网",
+            "name": "💗51网",
+            "type": 3,
+            "api": "./lib/51暗网.py",
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            },
+            "changeable": 1
+        },
+        {
+            "key": "💗51赛",
+            "name": "💗51赛",
+            "type": 3,
+            "api": "./lib/51大赛.py",
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            },
+            "changeable": 1
+        },
+        {
+            "key": "💗帕帕",
+            "name": "💗啪啪",
+            "type": 3,
+            "api": "./lib/啪啪.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "💗精彩",
+            "name": "💗精彩",
+            "type": 3,
+            "api": "./lib/18AV.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "💗四虎",
+            "name": "💗四虎",
+            "type": 3,
+            "api": "./lib/四虎.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "💗媚娘",
+            "name": "💗媚娘",
+            "type": 3,
+            "api": "./lib/妲己.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "💗妲己",
+            "name": "💗妲己",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "https://gitee.com/xianluyuan/jar/raw/master/XBPQ.jar",
+            "ext": "./lib/妲己.json",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "💗车手",
+            "name": "💗车手",
+            "type": 3,
+            "api": "./lib/600司机.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "💗猫咪",
+            "name": "💗猫咪",
+            "type": 3,
+            "api": "./lib/熊猫秒播.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "🥒黄瓜",
+            "name": "💓黄瓜",
+            "type": 3,
+            "api": "./lib/黄瓜.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "💗123",
+            "name": "💗一二三",
+            "type": 3,
+            "api": "./lib/123.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "💗夜猫",
+            "name": "💗夜猫",
+            "type": 3,
+            "api": "./lib/夜猫影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "天堂",
+            "name": "💗天堂",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "https://gitee.com/xianluyuan/jar/raw/master/XBPQ.jar",
+            "ext": "./lib/天堂.json",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "🪜XHM",
+            "name": "🪜XHM",
+            "type": 3,
+            "api": "./lib/xhamster.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "hsTV",
+            "name": "🪜HsTV",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "api": "./lib/hstv.py",
+            "order_num": 5,
+            "ext": ""
+        },
+        {
+            "key": "P站1",
+            "name": "🪜P站",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "https://gitee.com/xianluyuan/jar/raw/master/XBPQ.jar",
+            "ext": "./lib/P站1.json",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "P站2",
+            "name": "🪜P站",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "https://gitee.com/xianluyuan/jar/raw/master/XBPQ.jar",
+            "ext": "./lib/P站2.json",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "P站3",
+            "name": "🪜P站",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "https://gitee.com/xianluyuan/jar/raw/master/XBPQ.jar",
+            "ext": "./lib/P站3.json",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "🪜撸铁",
+            "name": "🪜撸铁",
+            "type": 3,
+            "api": "./lib/撸一天.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "🪜missav.app",
+            "name": "🪜MissAV",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "jar": "https://gitee.com/xianluyuan/jar/raw/master/nb.jar",
+            "ext": "./lib/missav.app.json",
+            "style": {
+                "type": "rect",
+                "ratio": 1.6
+            }
+        },
+        {
+            "key": "💗RED",
+            "name": "🪜RED",
+            "type": 3,
+            "api": "./lib/redgifs.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "💗神油",
+            "name": "🪜神油",
+            "type": 3,
+            "api": "./lib/印度.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "💗Han",
+            "name": "🪜Han",
+            "type": 3,
+            "api": "./lib/乐哥玩物社区.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "💗国产",
+            "name": "🪜国产",
+            "type": 3,
+            "api": "./js/国产传媒.js",
+            "style": {
+                "type": "rect",
+                "ratio": 1
+            },
+            "changeable": 1
+        },
+        {
+            "key": "💓爆料",
+            "name": "🪜爆料",
+            "type": 3,
+            "api": "./lib/爆料.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "💗Strip",
+            "name": "🪜Strip",
+            "type": 3,
+            "api": "./lib/stripchat.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "key": "💗污漫",
+            "name": "💗(影视+专用)",
+            "type": 3,
+            "api": "./lib/污漫.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "playerType": 2
+        },
+        {
+            "name": "🐙GitHub",
+            "key": "🐙GitHub",
+            "type": 3,
+            "api": "csp_GitHubAmns",
+            "searchable": 0,
+            "filterable": 0,
+            "quickSearch": 0,
+            "changeable": 0,
+            "ext": "./lib/github.json"
+        }
+    ],
+    "parses": [
+        {
+            "name": "聚合1",
+            "type": 3,
+            "url": "Demo"
+        },
+        {
+            "name": "聚合0",
+            "type": 3,
+            "url": "Web"
+        },
+        {
+            "name": "ikun",
+            "type": 0,
+            "url": "https://jx.hls.one/?url="
+        },
+        {
+            "name": "77",
+            "type": 0,
+            "url": "https://jx.77flv.cc/?url="
+        },
+        {
+            "name": "A6",
+            "type": 0,
+            "url": "https://pl.a6club.com/player/analysis.php?v="
+        },
+        {
+            "name": "8090",
+            "type": 0,
+            "url": "https://www.8090g.cn/?url="
+        },
+        {
+            "name": "M3u8TV",
+            "type": 0,
+            "url": "https://jx.m3u8.tv/jiexi/?url="
+        },
+        {
+            "name": "CK",
+            "type": 0,
+            "url": "https://www.ckplayer.vip/jiexi/?url="
+        },
+        {
+            "name": "冰豆",
+            "type": 0,
+            "url": "https://bd.jx.cn/?url="
+        },
+        {
+            "name": "XY",
+            "type": 0,
+            "url": "https://jx.xymp4.cc/?url="
+        },
+        {
+            "name": "推荐",
+            "type": 1,
+            "url": "https://zy.qiaoji8.com/gouzi.php?url=94b07e0b2c0e8244&url="
+        },
+        {
+            "name": "臻享",
+            "type": 1,
+            "url": "https://150.138.78.37:4399/api?key=94b07e0b2c0e8244&url="
+        },
+        {
+            "name": "优选",
+            "type": 1,
+            "url": "http://1.94.221.189:88/algorithm.php?url="
+        }
+    ],
+    "doh": [
+        {
+            "name": "Google",
+            "url": "https://dns.google/dns-query",
+            "ips": [
+                "8.8.4.4",
+                "8.8.8.8"
+            ]
+        },
+        {
+            "name": "Cloudflare",
+            "url": "https://cloudflare-dns.com/dns-query",
+            "ips": [
+                "1.1.1.1",
+                "1.0.0.1",
+                "2606:4700:4700::1111",
+                "2606:4700:4700::1001"
+            ]
+        },
+        {
+            "name": "AdGuard",
+            "url": "https://dns.adguard.com/dns-query",
+            "ips": [
+                "94.140.14.140",
+                "94.140.14.141"
+            ]
+        },
+        {
+            "name": "DNSWatch",
+            "url": "https://resolver2.dns.watch/dns-query",
+            "ips": [
+                "84.200.69.80",
+                "84.200.70.40"
+            ]
+        },
+        {
+            "name": "Quad9",
+            "url": "https://dns.quad9.net/dns-quer",
+            "ips": [
+                "9.9.9.9",
+                "149.112.112.112"
+            ]
+        }
+    ],
+    "ads": [
+        "mozai.4gtv.tv"
+    ],
+    "ijk": [
+        {
+            "group": "软解码",
+            "options": [
+                {
+                    "category": 4,
+                    "name": "opensles",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "overlay-format",
+                    "value": "842225234"
+                },
+                {
+                    "category": 4,
+                    "name": "framedrop",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "soundtouch",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "start-on-prepared",
+                    "value": "1"
+                },
+                {
+                    "category": 1,
+                    "name": "http-detect-range-support",
+                    "value": "0"
+                },
+                {
+                    "category": 1,
+                    "name": "fflags",
+                    "value": "fastseek"
+                },
+                {
+                    "category": 2,
+                    "name": "skip_loop_filter",
+                    "value": "48"
+                },
+                {
+                    "category": 4,
+                    "name": "reconnect",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "enable-accurate-seek",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec-auto-rotate",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec-handle-resolution-change",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec-hevc",
+                    "value": "0"
+                },
+                {
+                    "category": 1,
+                    "name": "dns_cache_timeout",
+                    "value": "600000000"
+                }
+            ]
+        },
+        {
+            "group": "硬解码",
+            "options": [
+                {
+                    "category": 4,
+                    "name": "opensles",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "overlay-format",
+                    "value": "842225234"
+                },
+                {
+                    "category": 4,
+                    "name": "framedrop",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "soundtouch",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "start-on-prepared",
+                    "value": "1"
+                },
+                {
+                    "category": 1,
+                    "name": "http-detect-range-support",
+                    "value": "0"
+                },
+                {
+                    "category": 1,
+                    "name": "fflags",
+                    "value": "fastseek"
+                },
+                {
+                    "category": 2,
+                    "name": "skip_loop_filter",
+                    "value": "48"
+                },
+                {
+                    "category": 4,
+                    "name": "reconnect",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "enable-accurate-seek",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec-auto-rotate",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec-handle-resolution-change",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec-hevc",
+                    "value": "1"
+                },
+                {
+                    "category": 1,
+                    "name": "dns_cache_timeout",
+                    "value": "600000000"
+                }
+            ]
+        }
+    ],
+    "proxy": [
+        "raw.githubusercontent.com",
+        "googlevideo.com",
+        "cdn.v82u1l.com",
+        "cdn.iz8qkg.com",
+        "cdn.kin6c1.com",
+        "c.biggggg.com",
+        "c.olddddd.com",
+        "haiwaikan.com",
+        "www.histar.tv",
+        "youtube.com",
+        "uhibo.com",
+        ".*boku.*",
+        ".*nivod.*",
+        ".*ulivetv.*",
+        "iill.top"
+    ],
+    "rules": [
+        {
+            "name": "cl",
+            "hosts": [
+                "magnet"
+            ],
+            "regex": [
+                "最 新",
+                "直 播",
+                "更 新"
+            ]
+        },
+        {
+            "name": "火山嗅探",
+            "hosts": [
+                "huoshan.com"
+            ],
+            "regex": [
+                "item_id="
+            ]
+        },
+        {
+            "name": "抖音嗅探",
+            "hosts": [
+                "douyin.com"
+            ],
+            "regex": [
+                "is_play_url="
+            ]
+        },
+        {
+            "name": "农民嗅探",
+            "hosts": [
+                "toutiaovod.com"
+            ],
+            "regex": [
+                "video/tos/cn"
+            ]
+        },
+        {
+            "name": "七新嗅探",
+            "hosts": [
+                "api.52wyb.com"
+            ],
+            "regex": [
+                "m3u8?pt=m3u8"
+            ]
+        },
+        {
+            "name": "夜市",
+            "hosts": [
+                "yeslivetv.com"
+            ],
+            "script": [
+                "document.getElementsByClassName('vjs-big-play-button')[0].click()"
+            ]
+        },
+        {
+            "name": "毛驴",
+            "hosts": [
+                "www.maolvys.com"
+            ],
+            "script": [
+                "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
+            ]
+        },
+        {
+            "name": "czzy",
+            "hosts": [
+                "10086.cn"
+            ],
+            "regex": [
+                "/storageWeb/servlet/downloadServlet"
+            ]
+        },
+        {
+            "name": "bdys",
+            "hosts": [
+                "bytetos.com",
+                "byteimg.com",
+                "bytednsdoc.com",
+                "pstatp.com"
+            ],
+            "regex": [
+                "/tos-cn"
+            ],
+            "exclude": [
+                ".m3u8"
+            ]
+        },
+        {
+            "name": "bdys10",
+            "hosts": [
+                "bdys10.com"
+            ],
+            "regex": [
+                "/obj/"
+            ],
+            "exclude": [
+                ".m3u8"
+            ]
+        }
+    ]
+}
